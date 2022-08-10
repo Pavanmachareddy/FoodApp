@@ -3,7 +3,7 @@ import MealItemForm from './MealItemForm';
 
 const MealItem = (props) => {
   console.log(props.id,'-----props_id')
-  const price = `${props.price.toFixed(2)}`;
+  const price = `$${props.price.toFixed(2)}`;
 
   return(
     <li className={classes.meal}>
